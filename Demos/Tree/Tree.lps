@@ -1,0 +1,192 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="5">
+      <Unit0>
+        <Filename Value="Tree.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="Main_frm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Main_frm"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="17" Y="133"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\..\Library\binarytree.pas"/>
+        <UnitName Value="BinaryTree"/>
+        <EditorIndex Value="4"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1803"/>
+        <CursorPos X="6" Y="1823"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\..\Library\lib_intf.pas"/>
+        <UnitName Value="lib_intf"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="162"/>
+        <CursorPos X="23" Y="148"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\..\Library\LContLib.inc"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="3"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="3" Y="5"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit4>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="..\..\Library\binarytree.pas"/>
+        <Caret Line="731" Column="1" TopLine="707"/>
+      </Position1>
+      <Position2>
+        <Filename Value="..\..\Library\binarytree.pas"/>
+        <Caret Line="734" Column="1" TopLine="711"/>
+      </Position2>
+      <Position3>
+        <Filename Value="..\..\Library\binarytree.pas"/>
+        <Caret Line="593" Column="1" TopLine="578"/>
+      </Position3>
+      <Position4>
+        <Filename Value="..\..\Library\binarytree.pas"/>
+        <Caret Line="594" Column="1" TopLine="578"/>
+      </Position4>
+      <Position5>
+        <Filename Value="..\..\Library\binarytree.pas"/>
+        <Caret Line="595" Column="1" TopLine="578"/>
+      </Position5>
+      <Position6>
+        <Filename Value="..\..\Library\binarytree.pas"/>
+        <Caret Line="714" Column="1" TopLine="699"/>
+      </Position6>
+      <Position7>
+        <Filename Value="..\..\Library\binarytree.pas"/>
+        <Caret Line="718" Column="1" TopLine="699"/>
+      </Position7>
+      <Position8>
+        <Filename Value="..\..\Library\binarytree.pas"/>
+        <Caret Line="721" Column="1" TopLine="699"/>
+      </Position8>
+      <Position9>
+        <Filename Value="..\..\Library\binarytree.pas"/>
+        <Caret Line="722" Column="1" TopLine="699"/>
+      </Position9>
+      <Position10>
+        <Filename Value="..\..\Library\binarytree.pas"/>
+        <Caret Line="723" Column="1" TopLine="699"/>
+      </Position10>
+      <Position11>
+        <Filename Value="..\..\Library\binarytree.pas"/>
+        <Caret Line="724" Column="1" TopLine="700"/>
+      </Position11>
+      <Position12>
+        <Filename Value="..\..\Library\binarytree.pas"/>
+        <Caret Line="734" Column="1" TopLine="720"/>
+      </Position12>
+      <Position13>
+        <Filename Value="..\..\Library\binarytree.pas"/>
+        <Caret Line="593" Column="1" TopLine="578"/>
+      </Position13>
+      <Position14>
+        <Filename Value="..\..\Library\binarytree.pas"/>
+        <Caret Line="594" Column="1" TopLine="578"/>
+      </Position14>
+      <Position15>
+        <Filename Value="..\..\Library\binarytree.pas"/>
+        <Caret Line="595" Column="1" TopLine="578"/>
+      </Position15>
+      <Position16>
+        <Filename Value="..\..\Library\binarytree.pas"/>
+        <Caret Line="714" Column="1" TopLine="699"/>
+      </Position16>
+      <Position17>
+        <Filename Value="..\..\Library\binarytree.pas"/>
+        <Caret Line="718" Column="1" TopLine="699"/>
+      </Position17>
+      <Position18>
+        <Filename Value="..\..\Library\binarytree.pas"/>
+        <Caret Line="719" Column="1" TopLine="699"/>
+      </Position18>
+      <Position19>
+        <Filename Value="..\..\Library\binarytree.pas"/>
+        <Caret Line="721" Column="1" TopLine="699"/>
+      </Position19>
+      <Position20>
+        <Filename Value="Main_frm.pas"/>
+        <Caret Line="141" Column="1" TopLine="116"/>
+      </Position20>
+      <Position21>
+        <Filename Value="Main_frm.pas"/>
+        <Caret Line="142" Column="1" TopLine="116"/>
+      </Position21>
+      <Position22>
+        <Filename Value="..\..\Library\binarytree.pas"/>
+        <Caret Line="1851" Column="6" TopLine="1836"/>
+      </Position22>
+      <Position23>
+        <Filename Value="Main_frm.pas"/>
+        <Caret Line="132" Column="1" TopLine="116"/>
+      </Position23>
+      <Position24>
+        <Filename Value="Main_frm.pas"/>
+        <Caret Line="136" Column="1" TopLine="116"/>
+      </Position24>
+      <Position25>
+        <Filename Value="..\..\Library\binarytree.pas"/>
+        <Caret Line="1851" Column="19" TopLine="1830"/>
+      </Position25>
+      <Position26>
+        <Filename Value="..\..\Library\binarytree.pas"/>
+        <Caret Line="1850" Column="32" TopLine="1836"/>
+      </Position26>
+      <Position27>
+        <Filename Value="Main_frm.pas"/>
+        <Caret Line="132" Column="1" TopLine="116"/>
+      </Position27>
+      <Position28>
+        <Filename Value="Main_frm.pas"/>
+        <Caret Line="136" Column="1" TopLine="116"/>
+      </Position28>
+      <Position29>
+        <Filename Value="..\..\Library\lib_intf.pas"/>
+        <Caret Line="3" Column="21" TopLine="352"/>
+      </Position29>
+      <Position30>
+        <Filename Value="..\..\Library\LContLib.inc"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

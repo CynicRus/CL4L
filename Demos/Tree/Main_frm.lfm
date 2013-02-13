@@ -1,0 +1,51 @@
+object Form1: TForm1
+  Left = 328
+  Height = 242
+  Top = 237
+  Width = 470
+  Caption = 'Binary Tree'
+  ClientHeight = 242
+  ClientWidth = 470
+  Color = clBtnFace
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Position = poScreenCenter
+  LCLVersion = '1.0.4.0'
+  object btnIntfArrayTree: TButton
+    Left = 72
+    Height = 25
+    Top = 24
+    Width = 81
+    Caption = 'IntfBinaryTree'
+    OnClick = btnIntfArrayTreeClick
+    TabOrder = 1
+  end
+  object memoResult: TMemo
+    Left = 238
+    Height = 242
+    Top = 0
+    Width = 232
+    Align = alRight
+    ScrollBars = ssVertical
+    TabOrder = 2
+  end
+  object btnArrayTree: TButton
+    Left = 72
+    Height = 25
+    Top = 152
+    Width = 81
+    Caption = 'BinaryTree'
+    OnClick = btnArrayTreeClick
+    TabOrder = 0
+  end
+  object btnStrBinaryTree: TButton
+    Left = 72
+    Height = 25
+    Top = 88
+    Width = 81
+    Caption = 'StrBinaryTree'
+    OnClick = btnStrBinaryTreeClick
+    TabOrder = 3
+  end
+end

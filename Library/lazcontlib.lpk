@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="LazContLib"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)\"/>
+      </SearchPaths>
+      <Other>
+        <CompilerMessages>
+          <MsgFileName Value=""/>
+        </CompilerMessages>
+        <CompilerPath Value="$(CompPath)"/>
+      </Other>
+    </CompilerOptions>
+    <Files Count="14">
+      <Item1>
+        <Filename Value="lib_intf.pas"/>
+        <UnitName Value="lib_intf"/>
+      </Item1>
+      <Item2>
+        <Filename Value="lib_utils.pas"/>
+        <UnitName Value="lib_utils"/>
+      </Item2>
+      <Item3>
+        <Filename Value="abstractcontainer.pas"/>
+        <UnitName Value="AbstractContainer"/>
+      </Item3>
+      <Item4>
+        <Filename Value="LContLib.inc"/>
+        <Type Value="Include"/>
+      </Item4>
+      <Item5>
+        <Filename Value="algorithms.pas"/>
+        <UnitName Value="Algorithms"/>
+      </Item5>
+      <Item6>
+        <Filename Value="hashmap.pas"/>
+        <UnitName Value="HashMap"/>
+      </Item6>
+      <Item7>
+        <Filename Value="arraylist.pas"/>
+        <UnitName Value="ArrayList"/>
+      </Item7>
+      <Item8>
+        <Filename Value="arrayset.pas"/>
+        <UnitName Value="ArraySet"/>
+      </Item8>
+      <Item9>
+        <Filename Value="binarytree.pas"/>
+        <UnitName Value="BinaryTree"/>
+      </Item9>
+      <Item10>
+        <Filename Value="vector.pas"/>
+        <UnitName Value="Vector"/>
+      </Item10>
+      <Item11>
+        <Filename Value="hashset.pas"/>
+        <UnitName Value="HashSet"/>
+      </Item11>
+      <Item12>
+        <Filename Value="queues.pas"/>
+        <UnitName Value="queues"/>
+      </Item12>
+      <Item13>
+        <Filename Value="stack.pas"/>
+        <UnitName Value="stack"/>
+      </Item13>
+      <Item14>
+        <Filename Value="linkedlist.pas"/>
+        <UnitName Value="linkedlist"/>
+      </Item14>
+    </Files>
+    <Type Value="RunAndDesignTime"/>
+    <RequiredPkgs Count="2">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="FCL"/>
+      </Item2>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>
