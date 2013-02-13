@@ -1,0 +1,6 @@
+Containers library for Lazarus is a free library that provides ArrayList, LinkedList, Vector, HashMap, HashSet, ArraySet, Queue and Stack structures to Lazarus.
+It also provides algorithms like in STL (Apply, Found, CountObject, Copy, Generate, Fill, Reverse, Sort...).
+
+Author of original version(The Delphi Container Library): Jean-Philippe BEMPEL aka RDM (rdm_30@yahoo.com)
+
+Lazarus porting and fixes: CynicRus(CynicRus@gmail.com)
