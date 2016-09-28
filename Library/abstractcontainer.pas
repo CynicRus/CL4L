@@ -54,13 +54,13 @@ end;
 
 constructor TIntfCriticalSection.Create;
 begin
-	inherited;
-	InitializeCriticalSection(FCriticalSection);
+  inherited;
+	 InitCriticalSection(FCriticalSection);
 end;
 
 destructor TIntfCriticalSection.Destroy;
 begin
-	DeleteCriticalSection(FCriticalSection);
+	 DoneCriticalsection(FCriticalSection);
   inherited;
 end;
 
