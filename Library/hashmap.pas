@@ -318,7 +318,7 @@ begin
   Result := False;
   if Key = nil then
     Exit;
-  Bucket := @(FBuckets[FHashFunction(Integer(Key))]);
+  Bucket := @(FBuckets[FHashFunction(Integer(pointer(Key)))]);
   for I := 0 to Bucket^.Count - 1 do
     if Bucket^.Entries[I].Key = Key then
     begin
@@ -425,7 +425,7 @@ begin
   Result := nil;
   if Key = nil then
     Exit;
-  Bucket := @(FBuckets[FHashFunction(Integer(Key))]);
+  Bucket := @(FBuckets[FHashFunction(Integer(pointer(Key)))]);
   for I := 0 to Bucket^.Count - 1 do
     if Bucket^.Entries[I].Key = Key then
     begin
@@ -511,7 +511,7 @@ begin
     Exit;
   if Value = nil then
     Exit;
-  Index := FHashFunction(Integer(Key));
+  Index := FHashFunction(Integer(pointer(Key)));
   Bucket := @(FBuckets[Index]);
   for I := 0 to Bucket^.Count - 1 do
   	if Bucket^.Entries[I].Key = Key then
@@ -541,7 +541,7 @@ begin
   Result := nil;
   if Key = nil then
     Exit;
-  Bucket := @(FBuckets[FHashFunction(Integer(Key))]);
+  Bucket := @(FBuckets[FHashFunction(Integer(pointer(Key)))]);
   for I := 0 to Bucket^.Count - 1 do
     if Bucket^.Entries[I].Key = Key then
     begin
@@ -1659,7 +1659,7 @@ begin
   Result := False;
   if Key = nil then
     Exit;
-  Bucket := @(FBuckets[FHashFunction(Integer(Key))]);
+  Bucket := @(FBuckets[FHashFunction(Integer(pointer(Key)))]);
   for I := 0 to Bucket^.Count - 1 do
     if Bucket^.Entries[I].Key = Key then
     begin
@@ -1773,7 +1773,7 @@ begin
   Result := nil;
   if Key = nil then
     Exit;
-  Bucket := @(FBuckets[FHashFunction(Integer(Key))]);
+  Bucket := @(FBuckets[FHashFunction(Integer(pointer(Key)))]);
   for I := 0 to Bucket^.Count - 1 do
     if Bucket^.Entries[I].Key = Key then
     begin
@@ -1861,7 +1861,7 @@ begin
     Exit;
   if Value = nil then
     Exit;
-  Index := FHashFunction(Integer(Key));
+  Index := FHashFunction(Integer(pointer(Key)));
   Bucket := @(FBuckets[Index]);
   for I := 0 to Bucket^.Count - 1 do
   	if Bucket^.Entries[I].Key = Key then
@@ -1893,7 +1893,7 @@ begin
   Result := nil;
   if Key = nil then
     Exit;
-  Bucket := @(FBuckets[FHashFunction(Integer(Key))]);
+  Bucket := @(FBuckets[FHashFunction(Integer(pointer(Key)))]);
   for I := 0 to Bucket^.Count - 1 do
     if Bucket^.Entries[I].Key = Key then
     begin
